@@ -1,0 +1,36 @@
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d4286;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #698ae8;
+  transition: 0.4s;
+}
+
+.logo{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  height: 45px;
+  width: 45px;
+}
